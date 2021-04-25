@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <title>Rehome me! </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"> </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    {% include 'header/header.html' %}
+    <!--------------------------------------------------------Banner Section-------------------------------------------------------------->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="heading">“A dog is the only thing on earth that loves you more than you love yourself.”</p>
+          </div>
+          <div class="col-md-6" text-center>
+            <img src="{{ url_for('static', filename='images/image1.png') }}" class="image1">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------------------------About us-------------------------------------------------------------->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" text-center>
+            <img src="{{ url_for('static', filename='images/image 2.png') }}" class="image2">
+          </div>
+          <div class="col-md-6">
+            <p class="About-tittle mt-5"> About Rehome me !</p>
+            <p class="About-text"> Our mission is to bring about the day when all dogs can enjoy a happy life, free from
+              the threat of unnecessary destruction.We began our work by launching our hugely successful nationwide
+              Education programme. We now employ an Education & Community Team of 6 who deliver free curriculum linked
+              workshops based around responsible dog ownership throughout Primary Schools in Ireland. To date, the team
+              have delivered over 17,843 workshops, reaching 537,758 children. Dogs Trust believe that by
+              educating children, we are enabling the next generation of dog owners to make informed decisions on owning a
+              dog in the future. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------------------------Rehome-------------------------------------------------------------->
+    <section id="Rehome">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="Rehome-tittle mt-5"> Why Rehome a Dog ?</p>
+            <p class="Rehome-text">The number one reason for rescuing a dog instead of buying from a breeder is you will
+              save a dog’s life.
+              Animal euthanasia levels in many shelters is on the increase as they just aren’t finding as many people
+              wanting to rescue a dog
+              as they are receiving abandoned dogs. Currently, there are thousands of dogs scheduled for euthanasia –
+              it just doesn’t make sense to go to a breeder and buy a dog when there are so many dogs that need your help!
+            </p>
+          </div>
+          <div class="col-sm-6 text-right">
+            <img src="{{ url_for('static', filename='images/image 3.png') }}" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------------------------Take care-------------------------------------------------------------->
+
+    <section id="Takecare">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" text-center>
+            <img src="{{ url_for('static', filename='images/image 4.png') }}" class="image4">
+          </div>
+          <div class="col-md-6">
+            <p class="Takecare-tittle mt-5"> Take care of my Dog !</p>
+            <p class="Takecare-text"> Our mission is to bring about the day when all dogs can enjoy a happy life, free
+              from the threat of unnecessary destruction.We began our work by launching our hugely successful nationwide
+              Education programme. We now employ an Education & Community Team of 6 who deliver free curriculum linked
+              workshops based around responsible dog ownership throughout Primary Schools in Ireland. To date, the team
+              have delivered over 17,843 workshops, reaching 537,758 children. Dogs Trust believe that by
+              educating children, we are enabling the next generation of dog owners to make informed decisions on owning a
+              dog in the future. </p>
+          </div>
+          <div class="col-sm-6 text-center mb-5">
+            <a href="/take-care" class="btn btn-primary">Takecare</a>  
+          </div>          
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------------------------Donate-------------------------------------------------------------->
+    <section id="Donate">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="Donate-tittle mt-5"> Donate to us !</p>
+            <p class="Donate-text">In this unprecedented time of need, we need your support more than ever to help us care
+              for our
+              and we would be delighted if you would consider donating.</p>
+            <p class="Donate-subtext">With your Donations we can help buy special milk to feed puppies who have been
+              orphaned..
+              help treat an injured dog or pup who needs emergency veterinary care..
+              can help towards cost of neutering, microchipping and vaccinating an abandoned dog to prepare them for their
+              Forever Home.</p>
+          </div>
+          <div class="col-md-6" text-center>
+            <img src="{{ url_for('static', filename='images/image 3.png') }}" class="image3">
+          </div>
+        </div>
+        <div class="col-sm-6 text-center">
+          <a href="/donate" class="btn btn-primary mb-5">Donate</a>  
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

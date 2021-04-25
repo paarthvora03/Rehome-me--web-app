@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 1em sans-serif;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-color: #FDF9E5;
+  padding: 0;
+}
+
+.navbar-logo img {
+  height: 60px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: #6A8707 !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.fa-arrow-down {
+  color: #6A8707;
+  font-size: 20px !important;
+}
+
+/*---------------------------------------Banner Section--------------------------------------------------------------------*/
+
+#banner {
+  background-color: #FFB54A;
+  color: #6A8707;
+  font-weight: 500;
+  padding-top: 0%;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 150px;
+}
+
+/*---------------------------------------About us--------------------------------------------------------------------*/
+
+#About {
+  background-color: #FDF9E5;
+  padding-top: 0%;
+}
+
+.About-tittle {
+  color: #6A8707;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.About-text {
+  text-align: justify;
+  color: #6A8707;
+}
+
+/*---------------------------------------Rehome--------------------------------------------------------------------*/
+
+#Rehome {
+  background-color: #6A8707;
+  padding-top: 0%;
+}
+
+.Rehome-tittle {
+  color: #FDF9E5;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Rehome-text {
+  text-align: justify;
+  color: #FDF9E5;
+}
+
+/*---------------------------------------Take care--------------------------------------------------------------------*/
+
+#Takecare {
+  background-color: #FDF9E5;
+  padding-top: 0%;
+}
+
+.Takecare-tittle {
+  color: #6A8707;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Takecare-text {
+  text-align: justify;
+  color: #6A8707;
+}
+
+#Takecare .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: #6A8707;
+}
+
+/*---------------------------------------Donate--------------------------------------------------------------------*/
+
+#Donate {
+  background-color: #6A8707;
+  padding-top: 0%;
+}
+
+.Donate-tittle {
+  color: #FDF9E5;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Donate-text {
+  text-align: justify;
+  color: #FDF9E5;
+}
+
+.Donate-subtext {
+  text-align: justify;
+  color: #FDF9E5;
+}
+
+#Donate .btn-primary {
+  color: #6A8707;
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: #FDF9E5;
+}
